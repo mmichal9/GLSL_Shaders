@@ -3,7 +3,7 @@ const bool COLOR = true;
 
 
 
-// Sudo Random Generators:
+// Pseudorandom Generators:
 float nrand( vec2 n ){
 	return fract(sin(dot(n.xy, vec2(12.9898, 78.233)))* 43758.5453);
 }
